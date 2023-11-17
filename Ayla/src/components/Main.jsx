@@ -10,8 +10,9 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover "
+        className="w-full h-screen object-cover"
         src="https://images.unsplash.com/photo-1624450138053-ae223f275308?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Background"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center">
@@ -42,10 +43,34 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebook className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>

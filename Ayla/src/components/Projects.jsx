@@ -18,10 +18,10 @@ const project =()=> {
         minus voluptate!
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjecItem img={im} title="im" />
-        <ProjecItem img={key} title="key" />
-        <ProjecItem img={kj} title="kj" />
-        <ProjecItem img={Ma} title="ma" />
+        <ProjecItem img={im} title="Never Give Up " />
+        <ProjecItem img={key} title="Perseverance breeds success" />
+        <ProjecItem img={kj} title="Never relent, achieve success" />
+        <ProjecItem img={Ma} title="Excellence shines when you reach the top." />
       </div>
     </div>
   );
